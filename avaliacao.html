@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação - Delícias da Casa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍽️ Delícias da Casa</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main class="form-container">
+        <h2>Avalie nossa comida</h2>
+        <form>
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="nota">Nota:</label>
+            <div class="stars">
+                <input type="radio" name="nota" id="star5" value="5"><label for="star5">⭐</label>
+                <input type="radio" name="nota" id="star4" value="4"><label for="star4">⭐</label>
+                <input type="radio" name="nota" id="star3" value="3"><label for="star3">⭐</label>
+                <input type="radio" name="nota" id="star2" value="2"><label for="star2">⭐</label>
+                <input type="radio" name="nota" id="star1" value="1"><label for="star1">⭐</label>
+            </div>
+
+            <label for="comentario">Comentário:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+            <button type="submit">Enviar Avaliação</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Delícias da Casa</p>
+    </footer>
+</body>
+</html>
+
